@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #414141;
+	font-family: Muli, 'Arial', 'sans-serif';
+	color: hotpink;
+	padding: 10px;
+}
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-items: center;
+	margin: 20px auto;
+}
+
+header h1 {
+	margin: 15px auto;
+}
+header p {
+	font-size: 14px;
+	color: white;
+	max-width: 840px;
+}
+.row {
+	max-width: 1000px;
+	margin: 30px auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: space-evenly;
+}
+.column {
+	width: 30%;
+	max-width: 300px;
+	border: 1px dashed white;
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+	padding: 20px;
+}
+@media screen and (max-width: 768px) {
+	.column {
+		width: 40%;
+	}
+}
+@media screen and (max-width: 576px) {
+	.column {
+		width: 90%;
+	}
+}
+
+.code-card.linear-gradient-background {
+	background-image: linear-gradient(rgba(232, 102, 236, 0.6) 100%, rgba(232, 102, 236, 0.3) 0%);
+}
+
+.code-card,
+.card-header {
+	border-radius: 8px;
+	transition: all 0.5s ease-in-out;
+}
+.card-usage {
+	font-size: 14px;
+	margin: 10px 0;
+}
+
+.code-card:hover,
+.card-header:hover {
+	box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
+}
+
+.card-header {
+	border: 1px solid white;
+
+	margin: -40px -10px 0px -10px;
+	padding: 10px;
+	background-color: #414141;
+	z-index: 1;
+	position: relative;
+
+	color: hotpink;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+code {
+	white-space: pre-wrap;
+
+	color: white;
+}
+
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
