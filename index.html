@@ -7,17 +7,20 @@
 		<link rel="stylesheet" href="./style.css" />
 		<title>CSS Snippet Cheatsheet</title>
 	</head>
+
 	<body>
 		<header>
 			<h1>CSS Snippet Cheatsheet</h1>
 			<p>Ever have trouble recalling the exact syntax for your favourite CSS code? Give it a permanent home and add it to this page! Select any snippet below and it'll automatically select all of the code for you to copy.</p>
 		</header>
+
 		<main>
-			<div class="row">
-				<div class="column">
+			<section class="row">
+				<!-- Flexbox Row -->
+				<article class="code-card column">
 					<div class="card-header">Flexbox Row</div>
-					<div class="card-usage">Use these properties to create a Flexbox row layout.</div>
-					<div class="code-card linear-gradient-background">
+					<div class="card-text">Use these properties to create a Flexbox row layout.</div>
+					<div class="card-code linear-gradient-background">
 						<pre>
 <code>.row {
 display: flex;
@@ -26,80 +29,84 @@ flex-wrap: wrap;
 }</code>
     </pre>
 					</div>
-				</div>
+				</article>
 
-				<div class="column">
+				<!-- Flexbox Column -->
+				<article class="code-card column">
 					<div class="card-header">Flexbox Column</div>
-					<div class="card-usage">Use this to create a flexbox column layout.</div>
-					<div class="code-card linear-gradient-background">
+					<div class="card-text">Use this to create a flexbox column layout.</div>
+					<div class="card-code linear-gradient-background">
 						<pre>
 <code>.column {
 display: flex;
 flex-direction: column;
 }</code>
-    </pre>
+			</pre>
 					</div>
-				</div>
+				</article>
 
-				<div class="column">
+				<!-- CSS Grid Layout -->
+				<article class="code-card column">
 					<div class="card-header">CSS Grid Layout</div>
-					<div class="card-usage">Build a 12-column layout using CSS Grid</div>
-					<div class="code-card linear-gradient-background">
+					<div class="card-text">Build a 12-column layout using CSS Grid</div>
+					<div class="card-code linear-gradient-background">
 						<pre>
 <code>.grid {
 display: grid;
 width: 100%;
 grid-template-columns: repeat(12, 1fr);
 }</code>
-    </pre>
+			</pre>
 					</div>
-				</div>
+				</article>
 
-				<div class="column">
+				<!-- Linear Gradients -->
+				<article class="code-card column">
 					<div class="card-header">Linear Gradients</div>
-					<div class="card-usage">This will create a background linear gradient from top to bottom.</div>
-					<div class="code-card linear-gradient-background">
+					<div class="card-text">This will create a background linear gradient from top to bottom.</div>
+					<div class="card-code linear-gradient-background">
 						<pre>
 <code>.linear-gradient-background {
 background-image: linear-gradient (
- rgba(232, 102, 236, 0.3) 0%,
- rgba(232, 102, 236, 0.6) 100%
+rgba(232, 102, 236, 0.3) 0%,
+rgba(232, 102, 236, 0.6) 100%
 );
 }</code>
-    </pre>
+</pre>
 					</div>
-				</div>
+				</article>
 
-				<div class="column">
+				<!-- Box Transition Glow -->
+				<article class="code-card column">
 					<div class="card-header">Box Transition Glow</div>
-					<div class="card-usage">Use transition and box shadows to glow on hover;</div>
-					<div class="code-card linear-gradient-background">
-						<pre>
-<code>.code-card .card-header {
+					<div class="card-text">Use transition and box shadows to glow on hover;</div>
+					<div class="card-code linear-gradient-background">
+						<pre><code>.code-card .card-header {
 border-radius: 8px;
 transition: all 0.5s ease-in-out;
 }
 
-.code-card:hover, .code-card:hover .card-header {
+.code-card:hover, 
+.code-card:hover .card-header {
 box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
 }</code>
-    </pre>
+</pre>
 					</div>
-				</div>
+				</article>
 
-				<div class="column">
+				<!-- Overlay Card with Title -->
+				<article class="code-card column">
 					<div class="card-header">Overlay Card with Title</div>
-					<div class="card-usage">Use position properties and negative margins to raise elements higher than their natural starting point.</div>
-					<div class="code-card linear-gradient-background">
-						<pre>
-<code>.card-header {
-position: relative;
-margin-top: -20px;
-}</code>
-    </pre>
+					<div class="card-text">Use position properties and negative margins to raise elements higher than their natural starting point.</div>
+					<div class="card-code linear-gradient-background">
+						<pre><code>.card-header {
+							position: relative;
+							margin-top: -20px;
+							}
+						</code></pre>
 					</div>
-				</div>
-			</div>
+				</article>
+			</section>
 		</main>
 		<footer><h3>Made with ❤️ and CSS</h3></footer>
 	</body>
