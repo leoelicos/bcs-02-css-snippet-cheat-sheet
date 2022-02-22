@@ -10,8 +10,6 @@ This project was introduced in bootcamp as a demonstration of responsive design 
 
 ## Table of Contents (Optional)
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
 -  [Installation](#installation)
 -  [Usage](#usage)
 -  [Credits](#credits)
@@ -19,7 +17,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+No installation is required. The application works on Google Chrome browsers.
 
 ## Usage
 
