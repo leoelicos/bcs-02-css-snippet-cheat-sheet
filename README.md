@@ -1,27 +1,16 @@
-# Bootcamp Week 2 Mini Project
+# CSS Snippet Cheat Sheet
 
-BCS Week 2 Project
-
-# CSS Snippet Cheatsheet
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ## Description
 
 This project was introduced in bootcamp as a demonstration of responsive design and flexbox. I wrote this app in HTML/CSS/Javascript based on the mockup to illustrate the convenience of flexbox. It solves the problem of responsive design efficiency and I learned about difficult concepts like flex value.
 
-## Table of Contents (Optional)
-
--  [Installation](#installation)
--  [Usage](#usage)
--  [Credits](#credits)
--  [License](#license)
-
-## Installation
-
-No installation is required. The application works on Google Chrome browsers.
-
 ## Usage
 
-To access the app, click on [CSS Snippet Cheatsheet](https://leoelicos.github.io/bcs-02-mini-project/) on GitHub Pages.
+Click on [CSS Snippet Cheatsheet](https://leoelicos.github.io/bcs-02-mini-project/) to open it in a browser.
 
 Screenshot:
 
