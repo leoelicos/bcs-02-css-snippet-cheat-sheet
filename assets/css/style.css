@@ -62,9 +62,9 @@ header p {
 .row {
 	display: flex;
 	flex-flow: row wrap;
-	align-items: stretch;
+}
+.justify-content {
 	justify-content: space-evenly;
-	align-content: space-evenly;
 }
 /* Flexbox Column */
 .code-card {
@@ -119,16 +119,19 @@ header p {
 	user-select: all;
 	color: var(--card-code-color);
 }
+
+pre::selection {
+	background-color: #47cdb5;
+}
+
 @media screen and (max-width: 991px) {
 	.code-card {
 		flex-basis: calc(90vw / 2); /* 10vw for gaps. Divide the remaining space by 2 */
 	}
 }
+
 @media screen and (max-width: 768px) {
 	.code-card {
 		flex-basis: 90vw; /* 5vw on each side */
 	}
-}
-pre::selection {
-	background-color: #47cdb5;
 }
