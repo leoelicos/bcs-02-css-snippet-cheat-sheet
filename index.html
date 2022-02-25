@@ -5,6 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./assets/css/style.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 		<title>CSS Snippet Cheatsheet</title>
 	</head>
 
@@ -14,94 +15,97 @@
 			<p>Ever have trouble recalling the exact syntax for your favourite CSS code? Give it a permanent home and add it to this page! Select any snippet below and it'll automatically select all of the code for you to copy.</p>
 		</header>
 		<!-- Section of Cards -->
-		<main class="row justify-content">
-			<!-- Card 1 -->
-			<article class="code-card">
-				<h3 class="card-header">Flexbox Row</h3>
-				<p class="card-text">Use these properties to create a Flexbox row layout.</p>
-				<pre class="card-code linear-gradient-background">
-.row {
-							display: flex;
-							flex-direction: row;
-							flex-wrap: wrap;
-							}
-					</pre
-				>
-			</article>
+		<main>
 
-			<!-- Card 2 -->
-			<article class="code-card">
-				<h3 class="card-header">Flexbox Column</h3>
-				<p class="card-text">Use this to create a flexbox column layout.</p>
-				<pre class="card-code linear-gradient-background">
-						.column {
-							display: flex;
-							flex-direction: column;
-							}
-					</pre
-				>
-			</article>
+				<article class="code-card">
+					<h3 class="card-header">Flexbox Row</h3>
+					<p class="card-text">Use these properties to create a Flexbox row layout.</p>
+					<pre class="card-code linear-gradient-background">
+	.row {
+								display: flex;
+								flex-direction: row;
+								flex-wrap: wrap;
+								}
+						</pre
+					>
+				</article>
 
-			<!-- Card 3 -->
-			<article class="code-card">
-				<h3 class="card-header">CSS Grid Layout</h3>
-				<p class="card-text">Build a 12-column layout using CSS Grid</p>
-				<pre class="card-code linear-gradient-background">
-						.grid {
-							display: grid;
-							width: 100%;
-							grid-template-columns: repeat(12, 1fr);
-							}
-					</pre
-				>
-			</article>
+				<!-- Card 2 -->
+				<article class="code-card">
+					<h3 class="card-header">Flexbox Column</h3>
+					<p class="card-text">Use this to create a flexbox column layout.</p>
+					<pre class="card-code linear-gradient-background">
+							.column {
+								display: flex;
+								flex-direction: column;
+								}
+						</pre
+					>
+				</article>
 
-			<!-- Card 4 -->
-			<article class="code-card">
-				<h3 class="card-header">Linear Gradients</h3>
-				<p class="card-text">This will create a background linear gradient from top to bottom.</p>
-				<pre class="card-code linear-gradient-background">
-						.linear-gradient-background {
-							background-image: linear-gradient (
-							rgba(232, 102, 236, 0.3) 0%,
-							rgba(232, 102, 236, 0.6) 100%
-							);
-							}
-					</pre
-				>
-			</article>
+				<!-- Card 3 -->
+				<article class="code-card">
+					<h3 class="card-header">CSS Grid Layout</h3>
+					<p class="card-text">Build a 12-column layout using CSS Grid</p>
+					<pre class="card-code linear-gradient-background">
+							.grid {
+								display: grid;
+								width: 100%;
+								grid-template-columns: repeat(12, 1fr);
+								}
+						</pre
+					>
+				</article>
 
-			<!-- Card 5 -->
-			<article class="code-card">
-				<h3 class="card-header">Box Transition Glow</h3>
-				<p class="card-text">Use transition and box shadows to glow on hover;</p>
-				<pre class="card-code linear-gradient-background">
-						.code-card .card-header {
-							border-radius: 8px;
-							transition: all 0.5s ease-in-out;
-							}
-							
-							.code-card:hover, 
-							.code-card:hover .card-header {
-							box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
-							}
-					</pre
-				>
-			</article>
+				<!-- Card 4 -->
+				<article class="code-card">
+					<h3 class="card-header">Linear Gradients</h3>
+					<p class="card-text">This will create a background linear gradient from top to bottom.</p>
+					<pre class="card-code linear-gradient-background">
+							.linear-gradient-background {
+								background-image: linear-gradient (
+								rgba(232, 102, 236, 0.3) 0%,
+								rgba(232, 102, 236, 0.6) 100%
+								);
+								}
+						</pre
+					>
+				</article>
 
-			<!-- Card 6 -->
-			<article class="code-card">
-				<h3 class="card-header">Overlay Card with Title</h3>
-				<p class="card-text">Use position properties and negative margins to raise elements higher than their natural starting point.</p>
-				<pre class="card-code linear-gradient-background">
-						.card-header {
-							position: relative;
-							margin-top: -20px;
-							}
-					</pre
-				>
-			</article>
+				<!-- Card 5 -->
+				<article class="code-card">
+					<h3 class="card-header"></i>Box Transition Glow</h3>
+					<p class="card-text">Use transition and box shadows to glow on hover.</p>
+					<pre class="card-code linear-gradient-background">
+							.code-card .card-header {
+								border-radius: 8px;
+								transition: all 0.5s ease-in-out;
+								}
+								
+								.code-card:hover, 
+								.code-card:hover .card-header {
+								box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
+								}
+						</pre
+					>
+				</article>
+
+				<!-- Card 6 -->
+				<article class="code-card">
+					<h3 class="card-header">Overlay Card with Title</h3>
+					<p class="card-text">Use position properties and negative margins to raise elements higher than their natural starting point.</p>
+					<pre class="card-code linear-gradient-background">
+							.card-header {
+								position: relative;
+								margin-top: -20px;
+								}
+						</pre
+					>
+				</article>
+
 		</main>
-		<footer><h3>Made with ❤️ and CSS</h3></footer>
+		<footer>
+			<h3>Made with ❤️ and CSS</h3>
+		</footer>
 	</body>
 </html>
