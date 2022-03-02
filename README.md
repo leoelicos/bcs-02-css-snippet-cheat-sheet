@@ -1,8 +1,6 @@
 # CSS Snippet Cheat Sheet
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ## Description
 
@@ -10,7 +8,7 @@ This project was introduced in bootcamp as a demonstration of responsive design 
 
 ## Usage
 
-Click on [CSS Snippet Cheatsheet](https://leoelicos.github.io/bcs-02-mini-project/) to open it in a browser.
+Click on [CSS Snippet Cheatsheet](https://leoelicos.github.io/bcs-02-css-snippet-cheat-sheet/) to open it in a browser.
 
 Screenshot:
 
